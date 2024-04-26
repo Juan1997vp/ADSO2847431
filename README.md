@@ -1,2 +1,13 @@
-# ADSO2847431
-ANALISIS Y DESARROLLO DE SOFWARE
+# ==ADSO2847431==
+## ANALISIS Y DESARROLLO DE SOTFWARE
+### centro de procesos industriales 
+
+---
+![follow knight](https://tinyurl.com/2bfr3wd3)
+
+
+|#  |topic     |Description       |
+|---|---       |------
+|01|Javascript |JS vanilla objects|
+
+[files Drive ADSO](https://tinyurl.com/4657t2vw)
