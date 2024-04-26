@@ -10,4 +10,3 @@
 |---|---       |------
 |01|Javascript |JS vanilla objects|
 
-[files Drive ADSO](https://tinyurl.com/4657t2vw)
