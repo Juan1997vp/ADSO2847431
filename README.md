@@ -1,13 +1,17 @@
-# ==ADSO2847431==
-## ANALISIS Y DESARROLLO DE SOTFWARE
-### centro de procesos industriales 
+# adso2847431
+## Análisis Y Desarrollo de Software
+### Centro de Procesos Industriales y Construcción 
 
 ---
-![follow knight](https://tinyurl.com/2bfr3wd3)
 
+![Hollow Knight](https://tinyurl.com/yeywdpa7)
 
-|#  |topic     |Description       |
-|---|---       |------
-|01|Javascript |JS vanilla objects|
+| # | Topic      | Description       |
+|---|---         |---                |
+|01 | Javascript | Js Vanilla Objects|
 
-[Files Drive ADSO](https://tinyurl.com/4657t2w)
+[Files Drive ADSO](https://tinyurl.com/4657t2vw)
+
+|URL Netlify/Vercel      |
+|---          |
+| [Open Link](https://adso2847431.netlify.app) |
