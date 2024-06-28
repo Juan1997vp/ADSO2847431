@@ -7,72 +7,94 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         body {
-    font-family: Arial, sans-serif;
-    background-color: #000000;
-    color: #fff;
-    padding-top: 70px; /* Para evitar que el navbar cubra el contenido */
-}
+            body {
+            font-family: Arial, sans-serif;
+            background-color: #fff;
+            color: #fff;
+            padding-top: 70px; /* Para evitar que el navbar cubra el contenido */
+        }
 
-.navbar {
-    background-color: #0b3c6d; /* Fondo gris oscuro para el navbar */
-}
+        .navbar {
+            background-color: #D9FD02; /* Fondo gris oscuro para el navbar */
+        }
 
-.navbar-brand, .navbar-nav .nav-link {
-    color: #fff !important; /* Texto blanco para los enlaces del navbar */
-}
+        .navbar-brand, .navbar-nav .nav-link {
+            color: #30302f !important; /* Texto blanco para los enlaces del navbar */
+        }
 
-.carousel-item img {
-    height: 500px; /* Altura fija para las imágenes del carousel */
-    object-fit: cover;
-}
+        section#home {
+            background-color: #fff; /* Fondo blanco para la sección Home */
+            color: #000; /* Texto negro para la sección Home */
+        }
 
-.carousel-caption {
-    background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente negro para las captions */
-    padding: 15px;
-    border-radius: 15px;
-}
+        section#futbolista {
+            background-color: #D9FD02; /* Fondo verde para la sección Futbolista */
+            color: #000; /* Texto negro para la sección Futbolista */
+        }
 
-#futbolista .carousel-item img,
-#historia .carousel-item img {
-    height: 200px; /* Altura fija para las imágenes del carousel en las secciones Futbolista e Historia */
-    object-fit: cover;
-}
+        section#historia {
+            background-color: #08782d; /* Fondo verde oscuro para la sección Historia */
+            color: #fff; /* Texto blanco para la sección Historia */
+        }
 
-#futbolista .carousel-caption,
-#historia .carousel-caption {
-    background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente negro para las captions de Futbolista e Historia */
-    padding: 15px;
-    border-radius: 15px;
-    color: #fff; /* Texto blanco para las captions de Futbolista e Historia */
-}
+        section#iconos {
+            background-color: #fff; /* Fondo blanco para la sección Iconos */
+            color: #000; /* Texto negro para la sección Iconos */
+        }
 
-#historia .carousel-caption {
-    background-color: #333; /* Fondo gris oscuro específico para la sección de Historia */
-}
+        .carousel-item img {
+            height: 500px; /* Altura fija para las imágenes del carousel */
+            object-fit: cover;
+        }
 
-#iconos {
-    text-align: center;
-    padding: 20px 0;
-}
+        .carousel-caption {
+            background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente negro para las captions */
+            padding: 15px;
+            border-radius: 15px;
+            color: #fff; /* Texto blanco para las captions */
+        }
 
-#iconos img {
-    border-radius: 50%; /* Bordes redondeados para las imágenes de iconos */
-    margin: 10px;
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-}
+        #futbolista .carousel-item img,
+        #historia .carousel-item img {
+            height: 200px; /* Altura fija para las imágenes del carousel en las secciones Futbolista e Historia */
+            object-fit: cover;
+        }
 
-.redes-sociales {
-    text-align: center;
-    margin-top: 50px;
-}
+        #futbolista .carousel-caption,
+        #historia .carousel-caption {
+            background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente negro para las captions de Futbolista e Historia */
+            padding: 15px;
+            border-radius: 15px;
+            color: #fff; /* Texto blanco para las captions de Futbolista e Historia */
+        }
 
-.redes-sociales a {
-    color: #fff; /* Texto blanco para los enlaces de redes sociales */
-    margin: 0 10px;
-}
+        #historia .carousel-caption {
+            background-color: #000; /* Fondo gris oscuro específico para la sección de Historia */
+        }
 
+        #iconos {
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        #iconos img {
+            border-radius: 50%; /* Bordes redondeados para las imágenes de iconos */
+            margin: 10px;
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+        }
+
+        .redes-sociales {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .redes-sociales a {
+            color: #000; /* Texto blanco para los enlaces de redes sociales */
+            margin: 0 10px;
+        }
+        
     </style>
 </head>
 <body>
@@ -151,7 +173,7 @@
     </section>
 
     <!-- Futbolista Section -->
-    <section id="futbolista" class="py-5">
+    <section  id="futbolista" class="py-5">
         <div class="container">
             <h2 class="text-center mb-4">Futbolista</h2>
             <div id="carouselFutbolista" class="carousel slide" data-ride="carousel">
